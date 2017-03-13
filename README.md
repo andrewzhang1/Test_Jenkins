@@ -15,4 +15,4 @@ Kick out the following two script ever time triggered by a PR (Pull Request).
   and
   send_result.sh
 
-Note: Ilya, please help me to design a PR and how me how to create these jobs.
+Note: Ilya, please help me to design a PR and how me how to create these jobs. Thanks!
