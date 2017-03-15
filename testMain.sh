@@ -7,7 +7,7 @@
 export logF=$(date +%y%m%d%H%M%S).log
 
 echo -e "\nHello, $LOGNAME, cuurent time is `date`" 2>&1 | tee -a $logF
-echo -e "\nThe current resouce uase on the linux machine "`hostname`" is: " 2>&1 | tee -a $logF
+echo -e "\nThe current resouce uasage on the linux machine "`hostname`" is: " 2>&1 | tee -a $logF
 
 vmstat 2>&1 | tee -a $logF 
 
