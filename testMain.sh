@@ -11,3 +11,4 @@ echo -e "\nThe current resouce uasage on the linux machine "`hostname`" is: " 2>
 
 vmstat 2>&1 | tee -a $logF 
 
+echo "Script is updated on `date`"
